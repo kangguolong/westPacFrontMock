@@ -1,0 +1,33 @@
+{
+  "name": "westPacMockFront",
+  "version": "1.0.0",
+  "description": "Westpac mock frontend react project",
+  "main": "app.js",
+  "repository": "git@github.com:kangguolong/westPacMockFront.git",
+  "author": "Peter Kang <kangguolong@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "bootstrap": "^4.5.2",
+    "css-loader": "0.28.4",
+    "node-sass": "4.5.3",
+    "normalize.css": "7.0.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-modal": "2.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.6.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  }
+}
