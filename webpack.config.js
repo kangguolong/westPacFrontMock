@@ -1,3 +1,4 @@
+const { createProxyMiddleware } = require('http-proxy-middleware');
 const path = require('path');
 
 module.exports = {
@@ -20,9 +21,16 @@ module.exports = {
             ]
         }]
     },
-    devtool: 'cheap-module-eval-source-map',
+    devtool: 'cheap-module-source-map',
     devServer: {
         contentBase: path.join(__dirname, 'public'),
-        historyApiFallback: true
+        historyApiFallback: true,
+        proxy: {
+            '/api/**': {
+                target: 'http://localhost:8080',
+                secure: false,
+                changeOrigin: true
+            }
+        }
     }
 };
