@@ -17,5 +17,5 @@ This repository provides modern react practice of building a frontend web projec
 
 * Download the source code
 * Execute $: **npm install --global yarn**
-* Execute $: **yarn instll** or **npm install**
+* Execute $: **yarn install** or **npm install**
 * Execute $: **yarn run dev-server**
